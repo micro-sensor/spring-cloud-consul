@@ -16,6 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Perform the smells analysis.
+        uses: edson-a-soares/microsensor@development
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
