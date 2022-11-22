@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      # MicroSensor Analysis
       - name: Perform static source code analysis
         uses: microsensorproject/microsensor@development
       - name: Set up JDK
